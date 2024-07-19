@@ -8,7 +8,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{route('guest.trains.index')}}">Lista Treni</a>
+                        <a class="nav-link active text-primary" aria-current="page" href="{{route('guest.trains.index')}}">Lista Treni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-success" aria-current="page" href="{{route('guest.fantasy-trains.index')}}">Treni magici</a>
                     </li>
                 </ul>
             </div>
